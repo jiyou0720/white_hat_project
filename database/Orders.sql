@@ -1,0 +1,6 @@
+CREATE TABLE Orders (
+orderID INT AUTO_INCREMENT,
+userID INT,
+orderDate DATETIME,
+PRIMARY KEY(orderID)
+);
